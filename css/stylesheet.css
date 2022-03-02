@@ -1,0 +1,35 @@
+body {
+  background-color: #252525;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(65, 64, 64);
+}
+li {
+  float: center;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #8d060f;
+}
+.active {
+  background-color: #6e060d;
+}
+.center {
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
